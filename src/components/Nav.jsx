@@ -1,6 +1,5 @@
 import React from "react";
 import Button from "./Button";
-import icon from "../assets/8726093_list_ul_icon.png";
 
 function Nav() {
   return (
