@@ -930,13 +930,16 @@ footer {
 }
 @media only screen and (max-width: 576px) {
   header {
-    background-size: 187%;
-    height: 416px;
+    background-size: 202%;
+    height: 381px;
     .hero-box {
-      width: 23.75rem;
+      width: 21.75rem;
       h1 {
         font-size: 28px;
-        width: 62%;
+        width: 90%;
+      }
+      .hero-box-discrp {
+        width: 84%;
       }
       .about-btn-white {
         width: 8.125rem;
@@ -1003,14 +1006,15 @@ footer {
           width: 2.313rem;
           height: 2.313rem;
           line-height: 2.313rem;
-          margin-right: 21.008px;
+          margin-right: 14.008px;
           margin-left: 10px;
           font-size: 20px;
         }
       }
       p {
         font-size: 14px;
-        padding-left: 41.504px;
+        padding-left: 31.504px;
+        padding-right: 9px;
       }
     }
   }
@@ -1053,7 +1057,7 @@ footer {
   .happy-users {
     .headline {
       width: 56% !important;
-      font-size: 28px;
+      font-size: 25px;
     }
     .counter-item {
       .num {
@@ -1085,6 +1089,26 @@ footer {
       p {
         font-size: 14px;
         width: 100%;
+      }
+    }
+  }
+  footer {
+    .submit {
+      h5 {
+        margin-bottom: 15px;
+      }
+      input {
+        padding: 17px 100px 17px 30px;
+        width: 12.938rem;
+        height: 2.125rem;
+        font-size: 12px;
+      }
+      button {
+        left: 127px;
+        top: 34px;
+        height: 2.125rem;
+        font-size: 12px;
+        width: 5.813rem;
       }
     }
   }
@@ -1226,6 +1250,9 @@ footer {
   }
   footer {
     .submit {
+      h5 {
+        margin-bottom: 15px;
+      }
       input {
         padding: 17px 100px 17px 30px;
         width: 12.938rem;
@@ -1234,6 +1261,7 @@ footer {
       }
       button {
         left: 127px;
+        top: 34px;
         height: 2.125rem;
         font-size: 12px;
 
