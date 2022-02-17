@@ -930,17 +930,29 @@ footer {
 }
 @media only screen and (max-width: 576px) {
   header {
+    background-size: 187%;
+    height: 416px;
     .hero-box {
-      width: 27.75rem;
+      width: 23.75rem;
       h1 {
         font-size: 28px;
         width: 62%;
       }
+      .about-btn-white {
+        width: 8.125rem;
+        height: 2.813rem;
+      }
+    }
+    .about-btn {
+      display: none;
+    }
+    .brands {
+      display: none;
     }
   }
+
   .main-background {
-    background-position: -1592% 60%;
-    background-size: 103%;
+    background: none;
   }
   .backgtound-img {
     width: 678.77px;
@@ -948,8 +960,42 @@ footer {
     top: -111px;
     left: -447px;
   }
+  .business {
+    margin-top: 330px !important;
+    h2 {
+      font-size: 20px;
+      width: 66% !important;
+      margin-bottom: 17px;
+      &::before {
+        width: 3.938rem;
+        top: -1rem;
+      }
+    }
+    p {
+      font-size: 11px;
+    }
+    .learn-about {
+      width: 44% !important;
+    }
+  }
+  .platform-container {
+    .platform-info {
+      .learn-about {
+        width: 54% !important;
+      }
+    }
+  }
   .ac-process {
     margin-top: 4.875rem;
+    .process-info {
+      h2 {
+        font-size: 20px;
+        width: 72%;
+      }
+      p {
+        font-size: 14px;
+      }
+    }
     .market-research {
       h5 {
         font-size: 20px;
@@ -973,10 +1019,41 @@ footer {
       margin-top: 50px;
     }
   }
+  .platform-tech-container {
+    .platform-tech {
+      h2 {
+        font-size: 20px;
+        width: 84% !important;
+        margin-top: 0;
+        &::before {
+          width: 3.938rem;
+          top: -1rem;
+        }
+      }
+      p {
+        font-size: 14px;
+      }
+    }
+  }
+  .overview {
+    margin-bottom: 100px;
+    .overview-info {
+      margin-bottom: 15px;
+      .headline {
+        font-size: 18px;
+      }
+      h2 {
+        font-size: 33px;
+      }
+      p {
+        font-size: 14px;
+      }
+    }
+  }
   .happy-users {
     .headline {
       width: 56% !important;
-      font-size: 32px;
+      font-size: 28px;
     }
     .counter-item {
       .num {
@@ -1002,14 +1079,17 @@ footer {
     }
     .users-info {
       h2 {
-        font-size: 28px;
+        font-size: 22px;
+        margin-bottom: 25px;
       }
       p {
         font-size: 14px;
+        width: 100%;
       }
     }
   }
 }
+
 @media only screen and (max-width: 320px) {
   header {
     background-size: 295%;
