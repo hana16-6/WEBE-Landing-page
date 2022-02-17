@@ -115,6 +115,7 @@ header {
     padding-top: 27px;
   }
   .item {
+    margin-bottom: 30px;
     h5 {
       color: #3b3a3a;
       font-family: "Poppins", sans-serif;
@@ -302,13 +303,12 @@ header {
       font-family: "Poppins", sans-serif;
       font-weight: bold;
       color: #3b3a3a;
-      width: 74% !important;
+      width: 74%;
       margin-bottom: 1.625rem;
-      width: 75%;
     }
     p {
       color: #8f8f8f;
-      width: 82% !important;
+      width: 82%;
       font-family: "Poppins", sans-serif;
       margin-bottom: 1.5rem;
     }
@@ -446,21 +446,23 @@ footer {
       color: #565656;
       font-size: 1rem;
       border-radius: 1.563rem;
-      width: 19.938rem;
-      height: 3.125rem;
-      padding: 17px 30px;
+      // width: 19.938rem;
+      // height: 3.125rem;
+      padding: 17px 157px 17px 30px;
+      outline: none;
+      border: none;
     }
     button {
       width: 8.813rem;
-      height: 3.125rem;
+      height: 3.17rem;
       background-color: #ff6057;
       border: none;
       outline: none;
       color: white;
       border-radius: 25px;
       position: absolute;
-      top: 28px;
-      right: 21px;
+      top: 27px;
+      right: 58px;
     }
   }
 }
@@ -539,7 +541,7 @@ footer {
     }
   }
 }
-@media only screen and (max-width: 1399px) {
+@media only screen and (max-width: 1400px) {
   nav {
     .logo {
       font-size: 2.25rem;
@@ -582,6 +584,13 @@ footer {
       bottom: 60px;
     }
   }
+  .platform {
+    .platform-info {
+      h2 {
+        width: 100% !important;
+      }
+    }
+  }
   .business {
     margin-top: 0;
     h2 {
@@ -601,15 +610,42 @@ footer {
     .headline {
       width: 32%;
     }
+    .user-card {
+      .card-info {
+        margin-left: 24px;
+        h5 {
+          font-size: 16px;
+        }
+        p {
+          font-size: 12px;
+        }
+        .userjob {
+          font-size: 14px;
+        }
+      }
+    }
+    .users-info {
+      h2 {
+        font-size: 28px;
+      }
+      p {
+        font-size: 14px;
+      }
+    }
   }
   footer {
     .submit {
+      input {
+        width: 19.938rem;
+        height: 3.125rem;
+      }
       button {
-        right: -12px;
+        right: 143px;
       }
     }
   }
 }
+
 @media only screen and (max-width: 992px) {
   nav {
     .nav-list {
@@ -635,7 +671,7 @@ footer {
   }
   .happy-users {
     .headline {
-      width: 50% !important;
+      width: 50%;
     }
     .card-container {
       margin-bottom: 4rem;
@@ -673,7 +709,14 @@ footer {
     background-position: 832% 59%;
     background-size: 93%;
   }
-
+  .platform-container {
+    .platform-info {
+      h2 {
+        font-size: 24px;
+        margin-top: 130px;
+      }
+    }
+  }
   .backgtound-img {
     width: 882.77px;
     height: 902.58px;
@@ -774,18 +817,129 @@ footer {
     top: -142px;
     left: -527px;
   }
-  .platform .learn-about {
-    width: 36%;
+  .main-background {
+    background-position: 757% 62%;
+    background-size: 93%;
+  }
+  .platform-container {
+    .platform-info {
+      h2 {
+        font-size: 24px;
+        margin-top: 180px;
+      }
+      p {
+        font-size: 14px;
+      }
+    }
+  }
+  .overview {
+    .overview-info {
+      .headline {
+        font-size: 18px;
+      }
+      h2 {
+        font-size: 39px;
+      }
+      p {
+        font-size: 12px;
+      }
+    }
+    margin-top: 86px;
+  }
+
+  .platform-tech-container {
+    .platform-tech {
+      h2 {
+        font-size: 24px;
+      }
+      p {
+        font-size: 14px;
+      }
+    }
+  }
+  .ac-process {
+    margin-top: 7.875rem;
+    .process-info {
+      h2 {
+        font-size: 24px;
+        width: 56%;
+      }
+      p {
+        font-size: 14px;
+      }
+    }
+    .market-research {
+      h5 {
+        font-size: 17px;
+        .market-circle {
+          width: 2.313rem;
+          height: 2.313rem;
+          line-height: 2.313rem;
+          margin-right: 21.008px;
+          margin-left: 10px;
+          font-size: 20px;
+        }
+      }
+      p {
+        font-size: 13px;
+        padding-left: 39.504px;
+      }
+    }
+  }
+  .platform {
+    .learn-about {
+      width: 36% !important;
+    }
   }
   .happy-users {
     .headline {
-      width: 58% !important;
+      width: 58%;
+      font-size: 28px;
+    }
+    .counter-item {
+      .num {
+        font-size: 35px;
+      }
+      .cap {
+        font-size: 17px;
+      }
+    }
+    .user-card {
+      .card-info {
+        margin-left: 24px;
+        h5 {
+          font-size: 16px;
+        }
+        p {
+          font-size: 12px;
+        }
+        .userjob {
+          font-size: 14px;
+        }
+      }
+    }
+    .users-info {
+      h2 {
+        font-size: 28px;
+      }
+      p {
+        font-size: 14px;
+      }
     }
   }
 }
 @media only screen and (max-width: 576px) {
+  header {
+    .hero-box {
+      width: 27.75rem;
+      h1 {
+        font-size: 28px;
+        width: 62%;
+      }
+    }
+  }
   .main-background {
-    background-position: -1238% 52%;
+    background-position: -1592% 60%;
     background-size: 103%;
   }
   .backgtound-img {
@@ -793,5 +947,218 @@ footer {
     height: 781.58px;
     top: -111px;
     left: -447px;
+  }
+  .ac-process {
+    margin-top: 4.875rem;
+    .market-research {
+      h5 {
+        font-size: 20px;
+        .market-circle {
+          width: 2.313rem;
+          height: 2.313rem;
+          line-height: 2.313rem;
+          margin-right: 21.008px;
+          margin-left: 10px;
+          font-size: 20px;
+        }
+      }
+      p {
+        font-size: 14px;
+        padding-left: 41.504px;
+      }
+    }
+  }
+  .platform-container {
+    .platform-info {
+      margin-top: 50px;
+    }
+  }
+  .happy-users {
+    .headline {
+      width: 56% !important;
+      font-size: 32px;
+    }
+    .counter-item {
+      .num {
+        font-size: 35px;
+      }
+      .cap {
+        font-size: 17px;
+      }
+    }
+    .user-card {
+      .card-info {
+        margin-left: 24px;
+        h5 {
+          font-size: 16px;
+        }
+        p {
+          font-size: 12px;
+        }
+        .userjob {
+          font-size: 14px;
+        }
+      }
+    }
+    .users-info {
+      h2 {
+        font-size: 28px;
+      }
+      p {
+        font-size: 14px;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 320px) {
+  header {
+    background-size: 295%;
+    .hero-box {
+      width: auto;
+    }
+    .about-btn {
+      display: none;
+    }
+    .brands {
+      display: none;
+    }
+  }
+  .business {
+    margin-top: 275px !important;
+    h2 {
+      font-size: 20px;
+      width: 66% !important;
+      margin-bottom: 17px;
+      &::before {
+        width: 3.938rem;
+        top: -1rem;
+      }
+    }
+    p {
+      font-size: 11px;
+    }
+    .learn-about {
+      width: 60% !important;
+    }
+  }
+  .backgtound-img {
+    width: 603.77px;
+    height: 721.58px;
+    top: -167px;
+    left: -447px;
+  }
+  .platform-container {
+    .platform {
+      .learn-about {
+        width: 73% !important;
+      }
+    }
+    .platform-info {
+      margin-top: 55px;
+      h2 {
+        font-size: 20px;
+        &::before {
+          width: 3.938rem;
+          top: -1rem;
+        }
+      }
+    }
+  }
+
+  .overview {
+    margin-bottom: -28px;
+    .overview-info {
+      margin-bottom: 15px;
+      .headline {
+        font-size: 14px;
+      }
+      h2 {
+        font-size: 22px;
+      }
+      p {
+        font-size: 10px;
+      }
+    }
+  }
+  .platform-tech-container {
+    .platform-tech {
+      h2 {
+        font-size: 20px;
+        width: 100% !important;
+        &::before {
+          width: 3.938rem;
+          top: -1rem;
+        }
+      }
+      p {
+        font-size: 10px;
+      }
+    }
+  }
+  .main-background {
+    background: none;
+  }
+  .ac-process {
+    .process-info {
+      h2 {
+        font-size: 20px;
+        width: 100%;
+      }
+      p {
+        font-size: 10px;
+      }
+    }
+    .market-research {
+      h5 {
+        font-size: 16px;
+      }
+      p {
+        font-size: 10px;
+        padding-left: 37.504px;
+      }
+    }
+  }
+  .happy-users {
+    .headline {
+      font-size: 20px;
+    }
+    .card-container {
+      .user-card {
+        padding: 30px;
+        flex-direction: column;
+        .card-img {
+          width: 100%;
+          margin-bottom: 15px;
+        }
+        .card-info {
+          width: 100%;
+        }
+      }
+    }
+    .users-info {
+      h2 {
+        font-size: 20px;
+      }
+      p {
+        font-size: 10px;
+      }
+    }
+  }
+  footer {
+    .submit {
+      input {
+        padding: 17px 100px 17px 30px;
+        width: 12.938rem;
+        height: 2.125rem;
+        font-size: 12px;
+      }
+      button {
+        left: 127px;
+        height: 2.125rem;
+        font-size: 12px;
+
+        width: 5.813rem;
+      }
+    }
   }
 }

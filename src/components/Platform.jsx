@@ -13,7 +13,7 @@ function Platform() {
           <div className="col-lg-6 platform-img">
             <img className="w-100" src={noPath} alt="" />
           </div>
-          <div className="col-lg-6">
+          <div className="col-lg-6 platform-info">
             <h2 className="w-50">Best Platform for the Technological Era</h2>
             <p>
               Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam

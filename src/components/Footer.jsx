@@ -13,7 +13,7 @@ function Footer() {
                 eget diam at mi sollicitudin
               </p>
             </div>
-            <div className="col-lg-4">
+            <div className="col-lg-3">
               <h5>Nos services</h5>
               {/* <p className="client font mb-0">
                 Avis clients Mentions légales Plan du site Blog d’Idéematic
@@ -30,7 +30,7 @@ function Footer() {
                 <li>‹ Notre boutique /›</li>
               </ul>
             </div>
-            <div className="col-lg-4 submit">
+            <div className="col-lg-5 submit">
               <h5>Sign up for Special Offers!</h5>
               <input type="text" placeholder="Mail" />
               <button>Subscribe</button>
