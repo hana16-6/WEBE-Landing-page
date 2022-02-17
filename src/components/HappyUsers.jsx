@@ -31,8 +31,8 @@ function HappyUsers() {
         <div className="row mt-5 pt-4 align-items-center">
           <div className="col-lg-6 card-container">
             <div className="d-flex user-card align-items-center justify-content-center">
-              <div className="col-4 card-img">
-                <img src={shutterstock} alt="" />
+              <div className="col-4">
+                <img className="card-img" src={shutterstock} alt="" />
               </div>
               <div className="col-6 card-info">
                 <h5>Florrie Jacobs</h5>
