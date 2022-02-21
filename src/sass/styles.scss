@@ -1158,6 +1158,9 @@ footer {
       .user-card {
         padding: 30px;
         flex-direction: column;
+        width: 72% !important;
+
+        margin: 0 auto;
         .card-img {
           width: 100%;
           margin-bottom: 15px;
@@ -1340,6 +1343,7 @@ footer {
       .user-card {
         padding: 30px;
         flex-direction: column;
+        width: 100% !important;
         .card-img {
           width: 100%;
           margin-bottom: 15px;
